@@ -1,0 +1,121 @@
+/* Tela do atleta */
+.FullScreen{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  /* margin-left: 3vh;
+  margin-right: 3vh; */
+  /* viewport heigth: Altura visível da tela do navegador */
+}
+
+.PodioLogo{
+  /* width: 100%; */
+  margin-top: 15%;
+  max-width: 80%;
+  height: auto;
+  /* height: 100%; */
+}
+
+.MenuSide{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F8FAFB;
+}
+
+.Options{
+  margin-top: 5vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.OptionsText{
+  margin-left: 10%;
+  font-size: 100%;
+}
+
+.BlueLine{
+  background-color: #332482;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.GreenLine{
+  background-color: #049443;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.YellowLine{
+  background-color: #FACB05;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Name{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 0%;
+}
+
+.Practice{
+  margin-top: 1%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.AthleteSide{
+  margin-left: 5vh;
+  background-color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.AthleteImage{
+  height: 50vh;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  } */
+/* } */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
