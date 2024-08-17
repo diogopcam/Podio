@@ -7,8 +7,7 @@ function HomeScreen(){
         <div className='FullScreen'>
             <div className="LogoText">
                 <img className="Logo" src={Logo}/>
-                <p className='Text'> Apoie os atletas  </p>
-                <p className='Text'> do nosso país. </p>
+                <p className='Text'> Apoie os atletas do<br/>nosso país </p>
             </div>
             <div className='Description'> 
                 <p> O PODIO é um projeto sem fins lucrativos que objetiva proporcionar uma central de informações segura e unificada sobre os atletas do nosso país. </p>
