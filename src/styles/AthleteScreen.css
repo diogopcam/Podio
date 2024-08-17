@@ -10,18 +10,18 @@
 
 .PodioLogo{
   /* width: 100%; */
-  margin-top: 15%;
+  margin-top: 10%;
   max-width: 80%;
   height: auto;
   /* height: 100%; */
 }
 
 .MenuSide{
-  width: 25%;
+  width: 15%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #F8FAFB;
+  background-color: white;
 }
 
 .Options{
@@ -33,36 +33,9 @@
 }
 
 .OptionsText{
-  margin-left: 10%;
-  font-size: 100%;
-}
-
-.BlueLine{
-  background-color: #332482;
-  width: 100%;
-  height: 30%;
-  display: flex;
-  flex-direction: row;
-  /* justify-content: center; */
-  align-items: center;
-}
-
-.GreenLine{
-  background-color: #049443;
-  width: 100%;
-  height: 30%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.YellowLine{
-  background-color: #FACB05;
-  width: 100%;
-  height: 30%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  margin-left: 15%;
+  font-size: 80%;
+  color: #282c34;
 }
 
 .Name{

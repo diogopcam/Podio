@@ -1,0 +1,30 @@
+.FullScreen{
+    margin: 5%;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LogoText{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Logo{
+    width: 35%;
+    /* margin-right: 10%; */
+}
+
+.Text{
+    font-size: 50px;
+    /* margin-left: 5%; */
+}
+
+.Description{
+    width: 75%;
+    font-size: 15px;
+}

@@ -1,6 +1,5 @@
-import './AthleteScreen.css';
+import './styles/AthleteScreen.css';
 import React from 'react';
-import OlympicsSymbol from './images/olympics-1.svg'
 import PodioLogo from './images/podio-logo.svg';
 import Hugo from './images/hugo-calderano-tenis-de-mesa-jogos-olimpicos-paris-2024 1.png';
 
@@ -10,9 +9,9 @@ function AthleteScreen() {
       <div className="MenuSide">
         <img className='PodioLogo' src={PodioLogo} alt='Logo do site.'/>
         <div className='Options'>
-          <div className='BlueLine'> <p className='OptionsText'> Sobre o Podio </p> </div>
-          <div className='GreenLine'> <p className='OptionsText'> Atletas </p> </div>
-          <div className='YellowLine'> <p className='OptionsText'> </p> </div>
+          {/* <div> <p className='OptionsText'> Sobre o Podio </p> </div>
+          <div> <p className='OptionsText'> Atletas </p> </div>
+          <div> <p className='OptionsText'> </p> </div> */}
         </div>
       </div>
       <div className='AthleteSide'>
