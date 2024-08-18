@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/HomeScreen.css';
 import Logo from '../images/podio-logo.svg'
+import AthleteScreen from './AthleteScreen';
 
 function HomeScreen(){
     return(
-        <div className='FullScreen'>
-            <div> <p></p></div>
+        <div>
             <div className="LogoText">
                 <img className="Logo" src={Logo}/>
                 <p className='Text'> Apoie os atletas do<br/>nosso país </p>

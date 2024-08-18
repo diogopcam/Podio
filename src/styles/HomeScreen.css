@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-/* Tela (componente) inteira */
-.FullComponent{
-    margin: 5%;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .LogoText{
     width: 100%;
     display: flex;
@@ -24,17 +13,14 @@
 
 .Logo{
     width: 35%;
-    /* margin-right: 10%; */
 }
 
 .Text{
     font-size: 50px;
     font-family: 'Quicksand', sans-serif;
-    /* margin-left: 5%; */
 }
 
 .Description{
-    /* width: 100%; */
     font-size: 20px;
     font-family: 'Quicksand', sans-serif;
 }

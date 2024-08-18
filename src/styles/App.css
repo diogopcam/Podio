@@ -3,6 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Ocupa a altura total da viewport */
+    height: 90vh;
     width: 100%;
   }
