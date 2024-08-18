@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles/HomeScreen.css'
-import Logo from './images/podio-logo.svg'
+import '../styles/HomeScreen.css';
+import Logo from '../images/podio-logo.svg'
 
 function HomeScreen(){
     return(

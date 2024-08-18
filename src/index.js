@@ -1,13 +1,12 @@
+import App from './App.js'
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AthleteScreen from './AthleteScreen'; // Componente principal da sua aplicação
-import HomeScreen from './HomeScreen';
+import AthleteScreen from './screens/AthleteScreen'; // Componente principal da sua aplicação
+import HomeScreen from './screens/HomeScreen';
 
-// Renderiza o componente principal (App) no elemento com id 'root' no HTML
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    {/* <AthleteScreen /> */}
-    <HomeScreen> </HomeScreen>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <App/>
+  </React.StrictMode>
 );

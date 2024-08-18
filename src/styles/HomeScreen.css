@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-.FullScreen{
+/* Tela (componente) inteira */
+.FullComponent{
     margin: 5%;
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .LogoText{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     margin-top: 8%;
     margin-bottom: 5%;

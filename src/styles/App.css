@@ -1,0 +1,8 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ocupa a altura total da viewport */
+    width: 100%;
+  }

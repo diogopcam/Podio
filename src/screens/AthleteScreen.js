@@ -1,7 +1,7 @@
-import './styles/AthleteScreen.css';
+import '../styles/AthleteScreen.css';
 import React from 'react';
-import PodioLogo from './images/podio-logo.svg';
-import Hugo from './images/hugo-calderano-tenis-de-mesa-jogos-olimpicos-paris-2024 1.png';
+import PodioLogo from '../images/podio-logo.svg';
+import Hugo from '../images/hugo-calderano-tenis-de-mesa-jogos-olimpicos-paris-2024 1.png';
 
 function AthleteScreen() {
   return (
