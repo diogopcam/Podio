@@ -1,4 +1,16 @@
+.PodioLogo{
+    width: 250px;
+    padding: 30px;
+}
+
 .SearchComponent {
     height: 30px;
     width: 350px;
+}
+
+.SearchDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
